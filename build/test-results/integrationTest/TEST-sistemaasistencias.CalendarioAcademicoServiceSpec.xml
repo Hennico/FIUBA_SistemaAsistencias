@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sistemaasistencias.CalendarioAcademicoServiceSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-11-02T00:42:04" hostname="DESKTOP-D9KFQA8" time="0.138">
+  <properties/>
+  <testcase name="test get" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.059"/>
+  <testcase name="test list" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.023"/>
+  <testcase name="test count" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.02"/>
+  <testcase name="test delete" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.024"/>
+  <testcase name="test save" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

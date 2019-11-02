@@ -11,8 +11,11 @@ class CalendarioAcademicoSpec extends Specification implements DomainUnitTest<Ca
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    def "Al crear un calendario academico este se crea vacio"() {
+    	when: "se crea un calendario"
+    		def calendario = new CalendarioAcademico()
+    	then: "no tiene semanas asociadas"
+    		calendario.semanas.size() == 0
     }
+
 }

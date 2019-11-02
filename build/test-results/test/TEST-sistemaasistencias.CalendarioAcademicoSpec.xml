@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sistemaasistencias.CalendarioAcademicoSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-02T01:11:46" hostname="DESKTOP-D9KFQA8" time="0.004">
+  <properties/>
+  <testcase name="Al crear un calendario academico este se crea vacio" classname="sistemaasistencias.CalendarioAcademicoSpec" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
