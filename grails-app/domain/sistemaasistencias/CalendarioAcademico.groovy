@@ -4,8 +4,7 @@ class CalendarioAcademico {
 	long anio
 	Periodo primerCuatrimestre
 	Periodo segundoCuatrimestre
-
-
+	
 	public CalendarioAcademico() {
 		anio = 0
 		primerCuatrimestre  = Periodo.vacio()
@@ -18,5 +17,6 @@ class CalendarioAcademico {
 	]
 
     static constraints = {
+    	anio nullable:false
     }
 }

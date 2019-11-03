@@ -29,7 +29,25 @@
             <g:form resource="${this.calendarioAcademico}" method="PUT">
                 <g:hiddenField name="version" value="${this.calendarioAcademico?.version}" />
                 <fieldset class="form">
-                    <f:all bean="calendarioAcademico"/>
+                    <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />
+                    <table> 
+                        <tr>
+                            <td>Anio</td>
+                            <td colspan=2><g:textField name="anio" value="${this.calendarioAcademico?.anio}" /></td>
+                        </tr>
+
+                        <tr>
+                            <td>Primer cuatrimestre</td>
+                            <td>Inicio: <g:textField name="primerCuatrimestre.semanaInicio" value="${this.calendarioAcademico?.primerCuatrimestre.semanaInicio}" /></td>
+                            <td>Duracion: <g:textField name="primerCuatrimestre.semanasDuracion" value="${this.calendarioAcademico?.primerCuatrimestre.semanasDuracion}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Segundo cuatrimestre</td>
+                            <td>Inicio: <g:textField name="segundoCuatrimestre.semanaInicio" value="${this.calendarioAcademico?.segundoCuatrimestre.semanaInicio}" /></td>
+                            <td>Duracion: <g:textField name="segundoCuatrimestre.semanasDuracion" value="${this.calendarioAcademico?.segundoCuatrimestre.semanasDuracion}" /></td>
+                        </tr>
+                    </table>
+                    <!-- <f:all bean="calendarioAcademico"/> -->
                 </fieldset>
                 <fieldset class="buttons">
                     <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />

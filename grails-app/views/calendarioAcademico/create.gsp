@@ -27,7 +27,24 @@
             </g:hasErrors>
             <g:form resource="${this.calendarioAcademico}" method="POST">
                 <fieldset class="form">
-                    <f:all bean="calendarioAcademico"/>
+                    <table> 
+                        <tr>
+                            <td>Anio</td>
+                            <td colspan=2><g:textField name="anio" value="${this.calendarioAcademico?.anio}" /></td>
+                        <tr>
+
+                        <tr>
+                            <td>Primer cuatrimestre</td>
+                            <td>Inicio: <g:textField name="primerCuatrimestre.semanaInicio" value="${this.calendarioAcademico?.primerCuatrimestre.semanaInicio}" /></td>
+                            <td>Duracion: <g:textField name="primerCuatrimestre.semanasDuracion" value="${this.calendarioAcademico?.primerCuatrimestre.semanasDuracion}" /></td>
+                        <tr>
+                        <tr>
+                            <td>Segundo cuatrimestre</td>
+                            <td>Inicio: <g:textField name="segundoCuatrimestre.semanaInicio" value="${this.calendarioAcademico?.segundoCuatrimestre.semanaInicio}" /></td>
+                            <td>Duracion: <g:textField name="segundoCuatrimestre.semanasDuracion" value="${this.calendarioAcademico?.segundoCuatrimestre.semanasDuracion}" /></td>
+                        <tr>
+                    </table>
+                    <!-- <f:all bean="calendarioAcademico"/> -->
                 </fieldset>
                 <fieldset class="buttons">
                     <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />

@@ -61,13 +61,19 @@ class CalendarioAcademicoController {
             return
         }
 
-        request.withFormat {
-            form multipartForm {
-                flash.message = message(code: 'default.updated.message', args: [message(code: 'calendarioAcademico.label', default: 'CalendarioAcademico'), calendarioAcademico.id])
-                redirect calendarioAcademico
-            }
-            '*'{ respond calendarioAcademico, [status: OK] }
-        }
+        showValues(calendarioAcademico)
+
+        //request.withFormat {
+        //    form multipartForm {
+        //        flash.message = message(code: 'default.updated.message', args: [message(code: 'calendarioAcademico.label', default: 'CalendarioAcademico'), calendarioAcademico.id])
+        //        redirect calendarioAcademico
+        //    }
+        //    '*'{ respond calendarioAcademico, [status: OK] }
+        //}
+    }
+
+    def showValues(CalendarioAcademico calendarioAcademico) {
+        redirect action:"calendarioAcademico/show", params: calendarioAcademico
     }
 
     def delete(Long id) {
