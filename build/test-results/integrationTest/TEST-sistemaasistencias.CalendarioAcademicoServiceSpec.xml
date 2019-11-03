@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="sistemaasistencias.CalendarioAcademicoServiceSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-11-02T00:42:04" hostname="DESKTOP-D9KFQA8" time="0.138">
+<testsuite name="sistemaasistencias.CalendarioAcademicoServiceSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-11-03T17:02:12" hostname="DESKTOP-D9KFQA8" time="23.034">
   <properties/>
-  <testcase name="test get" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.059"/>
-  <testcase name="test list" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.023"/>
-  <testcase name="test count" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.02"/>
-  <testcase name="test delete" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.024"/>
-  <testcase name="test save" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.012"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="test get" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="22.572"/>
+  <testcase name="test list" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.215"/>
+  <testcase name="test count" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.039"/>
+  <testcase name="test delete" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.188"/>
+  <testcase name="test save" classname="sistemaasistencias.CalendarioAcademicoServiceSpec" time="0.019"/>
+  <system-out><![CDATA[14:02:08,992 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+14:02:08,992 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.groovy] at [file:/C:/Users/Nicol/git/FIUBA_SistemaAsistencias/build/resources/integrationTest/logback.groovy]
+14:02:08,994 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.groovy] occurs multiple times on the classpath.
+14:02:08,994 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.groovy] occurs at [file:/C:/Users/Nicol/git/FIUBA_SistemaAsistencias/build/resources/main/logback.groovy]
+14:02:08,994 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.groovy] occurs at [file:/C:/Users/Nicol/git/FIUBA_SistemaAsistencias/build/resources/integrationTest/logback.groovy]
+14:02:10,960 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@73844224 - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+14:02:10,980 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@73844224 - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+14:02:10,998 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@73844224 - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:02:11,005 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@73844224 - Naming appender as [STDOUT]
+14:02:11,270 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@73844224 - Setting level of logger [ROOT] to ERROR
+14:02:11,283 |-INFO in ch.qos.logback.classic.gaffer.ConfigurationDelegate@73844224 - Attaching appender named [STDOUT] to Logger[ROOT]
+
+Grails application running at http://localhost:54985 in environment: test
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

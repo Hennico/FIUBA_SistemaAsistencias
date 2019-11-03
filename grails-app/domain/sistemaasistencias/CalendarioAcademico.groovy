@@ -8,10 +8,14 @@ class CalendarioAcademico {
 
 	public CalendarioAcademico() {
 		anio = 0
-		primerCuatrimestre = Periodo.vacio()
-		primerCuatrimestre = Periodo.vacio()
+		primerCuatrimestre  = Periodo.vacio()
+		segundoCuatrimestre = Periodo.vacio()
 	}
 
+	static embedded = [
+		'primerCuatrimestre',
+		'segundoCuatrimestre',
+	]
 
     static constraints = {
     }
