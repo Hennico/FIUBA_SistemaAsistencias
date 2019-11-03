@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="sistemaasistencias.CalendarioAcademicoSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-02T01:11:46" hostname="DESKTOP-D9KFQA8" time="0.004">
+<testsuite name="sistemaasistencias.CalendarioAcademicoSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-11-02T02:54:14" hostname="DESKTOP-D9KFQA8" time="0.066">
   <properties/>
-  <testcase name="Al crear un calendario academico este se crea vacio" classname="sistemaasistencias.CalendarioAcademicoSpec" time="0.004"/>
+  <testcase name="Al crear un calendario academico este se crea vacio" classname="sistemaasistencias.CalendarioAcademicoSpec" time="0.066">
+    <failure message="groovy.lang.GroovyRuntimeException: Could not find matching constructor for: sistemaasistencias.Periodo(Integer, Integer)" type="groovy.lang.GroovyRuntimeException">groovy.lang.GroovyRuntimeException: Could not find matching constructor for: sistemaasistencias.Periodo(Integer, Integer)
+	at sistemaasistencias.Periodo.vacio(Periodo.groovy:15)
+	at sistemaasistencias.CalendarioAcademico.&lt;init&gt;(CalendarioAcademico.groovy:11)
+	at sistemaasistencias.CalendarioAcademicoSpec.Al crear un calendario academico este se crea vacio(CalendarioAcademicoSpec.groovy:16)
+</failure>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

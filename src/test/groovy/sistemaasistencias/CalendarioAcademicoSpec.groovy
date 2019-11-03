@@ -15,7 +15,7 @@ class CalendarioAcademicoSpec extends Specification implements DomainUnitTest<Ca
     	when: "se crea un calendario"
     		def calendario = new CalendarioAcademico()
     	then: "no tiene semanas asociadas"
-    		calendario.semanas.size() == 0
+    		calendario.primerCuatrimestre == Periodo.vacio() && calendario.segundoCuatrimestre == Periodo.vacio()
     }
 
 }

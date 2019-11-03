@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="sistemaasistencias.SemanaSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-02T01:11:45" hostname="DESKTOP-D9KFQA8" time="0.079">
-  <properties/>
-  <testcase name="al dar de alta la semana con una fecha inicial, la fecha fin se llena con la fecha correspondiente a 6 dias en el futuro" classname="sistemaasistencias.SemanaSpec" time="0.079"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

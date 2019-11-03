@@ -2,15 +2,16 @@ package sistemaasistencias
 
 class CalendarioAcademico {
 	long anio
-	Set<Semana> semanas
+	Periodo primerCuatrimestre
+	Periodo segundoCuatrimestre
+
 
 	public CalendarioAcademico() {
-		semanas = []
 		anio = 0
+		primerCuatrimestre = Periodo.vacio()
+		primerCuatrimestre = Periodo.vacio()
 	}
-	static hasMany = [
-		semanas: Semana
-	]
+
 
     static constraints = {
     }
